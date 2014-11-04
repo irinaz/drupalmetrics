@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Drupal Metrics - Nodes feature.
+ */
+
+include_once 'drupal_metrics_nodes.features.inc';
