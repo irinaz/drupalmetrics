@@ -1,0 +1,27 @@
+name = Columnchart for SLA project
+description = D3 Column Chart library for SLA project
+files[js][] = barchart.js
+files[css][] = barchart.css
+version = 0.1
+dependencies[] = d3.extend
+dependencies[] = d3.tooltip
+views = 3.0
+ 
+
+views_fields_data_key = d3rows
+
+views_fields[d3rows][total][label] = Numeric value
+views_fields[d3rows][total][type] = integer
+views_fields[d3rows][total][description] = The numeric value that will be used to plot each dot (circle) on the line
+
+views_fields[d3rows][title][label] = Case Name
+views_fields[d3rows][title][type] = string
+views_fields[d3rows][title][description] = The label that appears on the X axis.
+
+views_fields[d3rows][nid][label] = Node ID for the Case
+views_fields[d3rows][nid][type] = string
+views_fields[d3rows][nid][description] = Node ID used to link case column/name to the node.
+ 
+views_fields[legend][line][label] = Line label
+views_fields[legend][line][description] = The meaning of each different line.
+views_fields[legend][line][type] = string

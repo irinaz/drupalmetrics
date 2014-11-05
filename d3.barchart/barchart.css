@@ -1,0 +1,45 @@
+.tooltip {
+	z-index: 1000;
+}
+/* define svg */
+svg {
+	padding: 20px;
+}
+/* define g */
+
+g.rule text {
+	font-size: 12px;
+}
+g.ticks text {
+	font-size: 11px;
+}
+/* axis */
+
+.axis path, .axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+	z-index: 10;
+}
+.x.axis path {
+/*   display: none;*/
+}
+/* define columns colors*/
+
+.column {
+	fill: #DAD7CB;
+	stroke: #DAD7CB;
+}
+.column:hover {
+	fill: #8c1515;
+}
+.line {
+	fill: none;
+	stroke: steelblue;
+	stroke-width: 1.5px;
+}
+.legend rect {
+	fill: white;
+	stroke: black;
+	opacity: 0.8;
+}
